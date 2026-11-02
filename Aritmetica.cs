@@ -11,12 +11,16 @@ namespace Calculos
         /// <summary>
         /// Implementa operações aritméticas.
         /// </summary>
-        internal class Aritmetica
+        public int Somar(int x, int y)
         {
-            public int Somar(int x, int y)
-            {
-                return x + y;
-            }
+            return x + y;
+        }
+
+        Ficheiro: Aritmetica.cs
+
+        public int Subtrair(int x, int y)
+        {
+            return x - y;
         }
     }
 }
